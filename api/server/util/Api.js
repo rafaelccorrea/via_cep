@@ -1,10 +1,11 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://viacep.com.br/ws',
-    timeout: 1000,
+    baseURL: 'https://viacep.com.br/ws',
+    timeout: 3000,
     headers: {
-        'User-Agent':''
+        'Content-Type': 'application/json',
+        'User-Agent': ''
     }
 });
 

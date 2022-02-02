@@ -19,7 +19,7 @@ class viaCepController {
 
       const busca = await buscaCep(req.params.id);
 
-      if (!busca) {
+      if (busca.erro) {
         request.setError("Cep inexistente!", 400);
         return request.send(res);
       }
