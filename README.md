@@ -19,4 +19,4 @@ http://localhost:8000/api/busca/17512756
 
 ### Retorno Padrao Erro
 
-![Screenshot_1.png](/.attachments/Screenshot_1-47ee4e0a-f1fb-4039-b3b7-1b262085b47f.png)
+![Screenshot_1](https://user-images.githubusercontent.com/68115778/152246764-c2d71c85-04f6-4ade-bce3-fb1f4638f77b.png)
