@@ -31,6 +31,6 @@ http://localhost:8000/api/busca/17512756
 Para que seja posivel realizar as requisicoes e necessario
 passar o email valido no Header conforme exemplo abaixo.
 
-
+![Screenshot_2](https://user-images.githubusercontent.com/68115778/152256386-e87559ab-eea1-4bb1-a4cd-d6db316932cd.png)
 
 ### Pré configuração do middleware de autenticação com JWT pronta.
