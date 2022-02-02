@@ -15,7 +15,7 @@ http://localhost:8000/api/busca/17512756
 
 ### Retorno Padrao Sucesso
 
-![image.png](/.attachments/image-012e0db0-2bba-4264-9812-b23f1578e49c.png)
+![image](https://user-images.githubusercontent.com/68115778/152246855-b65ae0e4-47e6-407d-accb-9bd55b9922f6.png)
 
 ### Retorno Padrao Erro
 
