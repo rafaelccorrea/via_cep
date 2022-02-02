@@ -2,6 +2,11 @@
 
 Api basica de para consultas de cep.
 
+## Run Projeto
+
+yarn dev
+npm run dev
+
 ## Postman.
 
 Rota:
