@@ -1,16 +1,15 @@
 import express from 'express';
-import config from "dotenv";
+import 'dotenv/config'
 import cors from "cors";
 
 import {
   viaCepRoutes
 } from './server/routes'
 
-import { TokenMiddleware } from "./server/middlewares";
+import { TokenMiddleware, EmailMiddleware } from "./server/middlewares";
 
 const port = process.env.PORT || 8000;
 const app = express();
-config.config();
 
 //Config
 app.use(express.urlencoded({extended: false}));
@@ -25,6 +24,7 @@ app.get("*", (req, res) =>
 );
 
 // app.use("/api/*", TokenMiddleware);
+app.use("/api/*", EmailMiddleware);
 app.use("/api/busca", viaCepRoutes);
 
 app.listen(port, () => {
