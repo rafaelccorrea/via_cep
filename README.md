@@ -26,5 +26,11 @@ http://localhost:8000/api/busca/17512756
 
 ![Screenshot_1](https://user-images.githubusercontent.com/68115778/152246764-c2d71c85-04f6-4ade-bce3-fb1f4638f77b.png)
 
+### Middleware de emailing
 
-### Pré configuração do middleware de autenticação com JWT.
+Para que seja posivel realizar as requisicoes e necessario
+passar o email valido no Header conforme exemplo abaixo.
+
+
+
+### Pré configuração do middleware de autenticação com JWT pronta.
