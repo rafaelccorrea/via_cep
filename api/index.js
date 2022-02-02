@@ -6,7 +6,7 @@ import {
   viaCepRoutes
 } from './server/routes'
 
-import { TokenMiddleware, EmailMiddleware } from "./server/middlewares";
+import { EmailMiddleware } from "./server/middlewares";
 
 const port = process.env.PORT || 8000;
 const app = express();
