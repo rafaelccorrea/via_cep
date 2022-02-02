@@ -11,7 +11,7 @@ http://localhost:8000/api/busca/17512756
 
 ### Exemplo:
 
-![image.png](/.attachments/image-d06a85f1-88dd-45ab-aa20-a329ff8f13a0.png)
+![image](https://user-images.githubusercontent.com/68115778/152246963-45549dc7-c9ef-4372-b9c9-f30a4297b156.png)
 
 ### Retorno Padrao Sucesso
 
