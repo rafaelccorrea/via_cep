@@ -19,4 +19,4 @@ http://localhost:8000/api/busca/17512756
 
 ### Retorno Padrao Erro
 
-![image.png](/.attachments/image-67d551a5-c4f6-4bbf-98bf-4e8724be79d3.png)
+![alt text](/.attachments/image-67d551a5-c4f6-4bbf-98bf-4e8724be79d3.png)
