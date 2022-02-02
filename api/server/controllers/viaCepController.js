@@ -1,8 +1,10 @@
 import { Request } from "../util";
 import buscaCep from "../services/viaCepService";
 import { buscaCepValidation } from "../validations";
+import NodeCache  from "node-cache" 
 
 const request = new Request();
+const myCache = new NodeCache({ stdTTL: 300, checkperiod: 300 });
 
 class viaCepController {
 
@@ -16,8 +18,16 @@ class viaCepController {
           abortEarly: false,
         }
       );
+  
+      const buscaCache = myCache.get("cep")
 
-      const busca = await buscaCep(req.params.id);
+      if (!buscaCache){
+        const buscaPeloCache = await buscaCep(req.params.id);
+        return buscaPeloCache
+      }
+
+      const busca = await buscaCep(buscaCache);
+      await myCache.set( "cep", busca, 300 );
 
       if (busca.erro) {
         request.setError("Cep inexistente!", 400);
